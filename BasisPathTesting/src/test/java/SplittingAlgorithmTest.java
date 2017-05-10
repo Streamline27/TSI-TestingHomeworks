@@ -1,4 +1,3 @@
-import org.hamcrest.CoreMatchers;
 import org.junit.Test;
 
 import java.util.ArrayList;
