@@ -35,4 +35,19 @@ public class Transaction {
     public void setAmount(Double amount) {
         this.amount = amount;
     }
+
+    @Override
+    public boolean equals(Object anObject) {
+        if (this == anObject) return true;
+        if (anObject instanceof Transaction){
+            Transaction that = (Transaction) anObject;
+            if (!that.amount.equals(this.amount))     return false;
+            if (!that.creditor.equals(this.creditor)) return  false;
+            if (!that.debtor.equals(this.debtor))     return false;
+            return true;
+        }
+        return false;
+    }
 }
+
+
