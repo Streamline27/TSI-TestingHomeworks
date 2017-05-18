@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>BasicPathTesting</artifactId>
-
+    <artifactId>CauseEffectGraphingTesting</artifactId>
     <build>
         <plugins>
             <plugin>
